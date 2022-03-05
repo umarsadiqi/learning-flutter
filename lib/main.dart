@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:learningflutter/home.dart';
+import 'package:learningflutter/swatches.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,10 +15,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Learning Flutter',
       theme: ThemeData(
-        primarySwatch: Colors.teal
+        primarySwatch: white,
       ),
       home: const Home(),
     );
   }
 }
-
