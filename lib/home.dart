@@ -7,15 +7,15 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: const Icon(Icons.home),
-        title: const Text("AppBar"),
+        title: const Text("WhatsApp"),
         actions: const [
+          Icon(Icons.search),
+          SizedBox(width: 16,),
           Icon(Icons.more_vert),
-          SizedBox(width: 10,)
+          SizedBox(width: 16,),
         ],
       ),
-      body: Center(child: Text("body")),
-      // bottomNavigationBar: Text("bottomNavigationBar"),
+      body: Center(child: Text("CHATS")),
     );
   }
 }
